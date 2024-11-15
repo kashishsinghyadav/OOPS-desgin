@@ -5,11 +5,11 @@ To achieve this, the company wants to design a Customer class that can store inf
 As a software engineer at ShopEasy, your task is to design and implement the Customer class using object-oriented programming principles. You are free to use any programming language of your choice to provide the solution for this question.
 
 '''
-
+  
 
 class Customer:
     def __init__(self, customer_id, name,purchase):
-        self.customer_id = customer_id
+        self.customer_id = customer_id 
         self.name=name 
         self.arr=purchase
     def add_newpurchase_item(self,item):
